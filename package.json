@@ -1,0 +1,12 @@
+{
+  "name": "dispatcher-ab861b",
+  "version": "1.9.0",
+  "description": "A dispatcher utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["dispatcher", "utility"],
+  "license": "MIT"
+}

